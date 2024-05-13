@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 7rem;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.4rem;
+}
+header ul li{
+    border-bottom: 1px solid black;
+}
+
+/* HOME STYLES */
+
+#home{
+    background: white;
+}
+#home .container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+#home .container .content{
+    padding: 1rem;
+}
+#home .container .content p{
+    letter-spacing: 3px;
+}
+#home .container .image{
+    padding: 1rem;
+    position: relative;
+    background: red;
+}
+#conclave{
+    z-index: 49;
+}
+#vr{
+    z-index: 90;
+}
