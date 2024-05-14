@@ -14,9 +14,9 @@ header ul li{
 }
 
 /* HOME STYLES */
-
 #home{
-    background: white;
+    padding: 0rem 7rem;
+    padding-top: 3rem;
 }
 #home .container{
     display: grid;
@@ -29,13 +29,35 @@ header ul li{
     letter-spacing: 3px;
 }
 #home .container .image{
-    padding: 1rem;
     position: relative;
-    background: red;
 }
 #conclave{
     z-index: 49;
 }
 #vr{
     z-index: 90;
+}
+
+/* ABOUT STYLE  */
+
+#about{
+    background: #d7d7d7;
+    padding: 5rem;
+}
+#about p{
+    line-height: 1.5rem;
+}
+#about .container{
+    background-image: linear-gradient(to bottom, rgb(210, 56, 0), rgb(111, 30, 0));
+    color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+#about .container .image{
+    padding: 5rem;
+}
+#about .container .image img{
+    border-radius: 50%;
 }
